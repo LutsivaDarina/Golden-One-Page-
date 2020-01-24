@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#222222;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(../img/back.png) no-repeat center top/cover;
+  padding-bottom: 160px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.logo {
+  margin-top: 41px;
+  float: left;
+}
+nav {
+  margin-top: 50px;
+  float: right;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.titles_first {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 170px;
+}
+h1 {
+  font-size: 75px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin:15px;
+  
+}
+.clearfix{
+  content'';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.button{
+  padding:0;
+  margin: 0;
+  display:block;
+  color:#484543;
+  background-color: #fed136;
+  width: 240px;
+  padding: 20px 0;
+  border-radius: 3px;
+  margin:0 auto;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top:60px;  
+}
+.title{
+  padding-top: 115px;
+ }
+.title h2{
+  margin:0;
+  padding: 0;
+font-size:40px;
+font-weight: bold;
+text-transform: uppercase;
+text-align:center;
+}
+.title p{
+  margin:0;
+  padding: 0;
+  margin-top: 20px;
+  color:#777777;
+  font-weight: 16px;
+  text-align: center;}
+
+.services{
+ margin-top:50px;
+}
+.services_item{
+  width:270px;
+  float:left;
+  color:black;
+  text-align: center;
+}
+.services_item h3{
+font-size: 18px;
+margin-bottom:5px;
+}
+.services_item p{
+font-size: 14px;
+line-height: 1.55 em;
+}
+.services_item:last-child{
+  float:right;
+}
+.services_item:nth-child(2){
+  margin-left: 60px;
+}
+.con3{
+  background-color: #f7f7f7;
+  margin-top: 120px;
+}
+.picture{
+  margin-top: 80px;
+  margin-bottom: 141px;
+}
+img{
+  margin-left: 15px;
+}
+.about_pic{
+  margin-top: 80px;
+  height: 400px;
+}
+.card{
+ display: flex;
+ margin-bottom: 40px;
+}
+.description{
+  width: 339px;
+  margin-right: 31px;
+   text-align: right;
+}
+
+.header_about{
+  font-size: 18px;
+  color:#222222;
+}
+.header_text{
+  font-size: 14px;
+  color: #777777; 
+}
+
+.card1{
+  margin-left:40% ;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.description1{
+  margin-left: 31px;
+}
